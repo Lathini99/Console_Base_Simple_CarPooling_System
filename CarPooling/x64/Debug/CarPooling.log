@@ -1,0 +1,5 @@
+﻿  CarPooling.cpp
+F:\3rd Semester\GUI\CarPooling\CarPooling\Graph.h(52,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\3rd Semester\GUI\CarPooling\CarPooling\CarPooling.cpp(110,34): warning C4101: 'slash': unreferenced local variable
+F:\3rd Semester\GUI\CarPooling\CarPooling\CarPooling.cpp(245,34): warning C4101: 'slash': unreferenced local variable
+  CarPooling.vcxproj -> F:\3rd Semester\GUI\CarPooling\x64\Debug\CarPooling.exe
