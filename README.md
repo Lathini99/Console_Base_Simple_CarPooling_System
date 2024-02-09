@@ -1,60 +1,48 @@
-# Project Name
+# Console-Based Carpooling Application
 
-Brief description or introduction of the project.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Installation
-
-Instructions on how to install and set up the project.
-
-1. Clone the repository: `git clone https://github.com/your-username/project-name.git`
-2. Navigate to the project directory: `cd project-name`
-3. Install dependencies: `npm install`
-
-## Usage
-
-Instructions on how to use the project or run it.
-
-1. Start the application: `npm start`
-2. Open your web browser and navigate to `http://localhost:3000` to access the system.
-3. Provide any necessary credentials or configuration details.
-4. Describe the steps or actions required to interact with the project.
+This application is a console-based carpooling system developed in C++ using graph and array data structures. It facilitates ridesharing between riders and drivers, allowing them to connect and coordinate travel plans.
 
 ## Features
 
-- List the key features or functionalities of the project.
-- Provide a brief explanation of each feature.
-- Use bullet points or subheadings if needed.
+### Rider Role:
 
-## Contributing
+- Request rides by specifying the pickup and drop-off locations.
+- View available drivers and their corresponding details such as vehicle type and availability.
+- Choose a driver for the ride.
 
-Explain how others can contribute to the project.
+### Driver Role:
 
-- If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
-- Provide guidelines or instructions for contributing.
-- Include any code formatting or linting rules.
-- Mention the required programming languages or technologies for contributions.
+- Register as a driver by providing details such as vehicle type and availability.
+- View ride requests from riders.
+- Accept or reject ride requests based on availability and preference.
 
-## License
+## Data Structures Used
 
-This project is licensed under the [License Name](LICENSE.md) (if applicable).
-- Mention the type of license used (e.g., MIT, Apache, GNU, etc.).
-- If your project does not have a license, consider adding one. You can use resources like choosealicense.com to select an appropriate license.
+- Graph: Represents the map of locations with edges denoting distances between them.
+- Array: Used to store information about drivers, riders, ride requests, etc.
 
-## Contact
+## Prerequisites
 
-- Provide your contact information (email, social media handles, etc.).
-- Encourage users to reach out for questions, issues, or inquiries.
-- You can also include a link to a project-specific contact form or support page.
+- C++ compiler (Supporting C++11 or later)
 
-Feel free to customize the template according to your specific project requirements. Include additional sections if necessary, such as "Technologies Used," "Known Issues," "Roadmap," or "Acknowledgments." Provide clear instructions on how to use the project and any dependencies needed for running it.
+## Getting Started
 
-Remember to update the project name, installation instructions, usage guide, contact information, and other details to reflect your project accurately.
+1. Clone the repository:
+
+```bash
+git clone <repository_url>
+
+
+## Usage
+
+Rider Role:
+Select the option to request a ride.
+Enter the pickup and drop-off locations.
+View available drivers and their details.
+Choose a driver for the ride.
+
+Driver Role:
+Register as a driver by selecting the appropriate option.
+Enter vehicle details and availability.
+View ride requests from riders.
+Accept or reject ride requests.
